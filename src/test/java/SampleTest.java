@@ -1,3 +1,5 @@
+
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -8,7 +10,7 @@ public class SampleTest {
 	public void simpleTestPassed() {
 		int a = 1;
 		int b = 2;
-		assertTrue(a + b == 4);
+		assertTrue(a + b == 54);
 	}
 	
  	@Test
@@ -16,6 +18,7 @@ public class SampleTest {
  		int a = 1;
  		int b = 2;
  		assertFalse(a + b == 5);
+ 		}
+ 		
+ 		
  	}
-	
-}

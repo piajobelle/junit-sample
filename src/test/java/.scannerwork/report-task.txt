@@ -1,0 +1,5 @@
+projectKey=junit-sample
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/junit-sample
+ceTaskId=AV50pd5oU-VBMLJvWOWM
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AV50pd5oU-VBMLJvWOWM

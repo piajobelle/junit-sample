@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.0-RC2" sequence="0" timestamp="1505195567928" analysisTimestamp="1505195578554" release="">
+  <Project>
+    <Jar>C:\Users\bianca.a.del.puerto\workspace\junit-sample\src\test\java\SampleTest.java</Jar>
+    <Jar>C:\Users\bianca.a.del.puerto\workspace\junit-sample\target\test-classes\SampleTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\bianca.a.del.puerto\workspace\junit-sample</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\bianca.a.del.puerto\workspace\junit-sample\src\test\java\.scannerwork\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\bianca.a.del.puerto\workspace\junit-sample\src\test\java\.scannerwork\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>C:\Users\bianca.a.del.puerto\workspace\junit-sample\src\test\java\.scannerwork</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="1">
+    <MissingClass>org.junit.Assert</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Tue, 12 Sep 2017 13:52:47 +0800" total_classes="1" referenced_classes="9" total_bugs="0" total_size="13" num_packages="1" java_version="1.8.0_121" vm_version="25.121-b13" cpu_seconds="6.73" clock_seconds="2.16" peak_mbytes="251.18" alloc_mbytes="1796.00" gc_seconds="0.02">
+    <FileStats path="SampleTest.java" bugCount="0" size="13"/>
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="13">
+      <ClassStats class="SampleTest" sourceFile="SampleTest.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="280" invocations="289" avgMicrosecondsPerInvocation="969" maxMicrosecondsPerInvocation="3890" standardDeviationMicrosecondsPerInvocation="484"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="207" invocations="288" avgMicrosecondsPerInvocation="721" maxMicrosecondsPerInvocation="22150" standardDeviationMicrosecondsPerInvocation="2037"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="46" invocations="9" avgMicrosecondsPerInvocation="5145" maxMicrosecondsPerInvocation="17801" standardDeviationMicrosecondsPerInvocation="6425"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="41" invocations="3" avgMicrosecondsPerInvocation="13989" maxMicrosecondsPerInvocation="40532" standardDeviationMicrosecondsPerInvocation="18774"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="39" invocations="253" avgMicrosecondsPerInvocation="156" maxMicrosecondsPerInvocation="4473" standardDeviationMicrosecondsPerInvocation="383"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="36" invocations="22" avgMicrosecondsPerInvocation="1647" maxMicrosecondsPerInvocation="16022" standardDeviationMicrosecondsPerInvocation="3748"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="29" invocations="36" avgMicrosecondsPerInvocation="823" maxMicrosecondsPerInvocation="4223" standardDeviationMicrosecondsPerInvocation="887"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="28" invocations="9" avgMicrosecondsPerInvocation="3165" maxMicrosecondsPerInvocation="23165" standardDeviationMicrosecondsPerInvocation="7114"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="26" invocations="9" avgMicrosecondsPerInvocation="2929" maxMicrosecondsPerInvocation="13841" standardDeviationMicrosecondsPerInvocation="4292"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="17" invocations="3" avgMicrosecondsPerInvocation="5694" maxMicrosecondsPerInvocation="15691" standardDeviationMicrosecondsPerInvocation="7074"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
