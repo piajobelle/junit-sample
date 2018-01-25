@@ -14,5 +14,5 @@ public class SampleTest {
 
         assertEquals("onetwo", result);
  		
- 		
+ 		}
  	}
