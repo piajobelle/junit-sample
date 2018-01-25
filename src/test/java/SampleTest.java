@@ -8,11 +8,17 @@ public class SampleTest {
 	
 	@Test
 	public void simpleTestPassed() {
-		MyUnit myUnit = new MyUnit();
-
-        String result = myUnit.concatenate("one", "two");
-
-        assertEquals("onetwo", result);
- 		
+		int a = 1;
+		int b = 2;
+		assertTrue(a + b == 54);
+	}
+	
+ 	@Test
+ 	public void simpleTestFailed() {
+ 		int a = 1;
+ 		int b = 2;
+ 		assertFalse(a + b == 5);
  		}
+ 		
+ 		
  	}
