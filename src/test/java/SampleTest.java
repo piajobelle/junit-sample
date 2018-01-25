@@ -1,15 +1,18 @@
-import org.junit.Test;
+
+
 import static org.junit.Assert.*;
 
-public class MyUnitTest {
+import org.junit.Test;
 
-    @Test
-    public void testConcatenate() {
-        MyUnit myUnit = new MyUnit();
+public class SampleTest {
+	
+	@Test
+	public void simpleTestPassed() {
+		MyUnit myUnit = new MyUnit();
 
         String result = myUnit.concatenate("one", "two");
 
         assertEquals("onetwo", result);
-
-    }
-}
+ 		
+ 		
+ 	}
